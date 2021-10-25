@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>calculator.Operation</OriginalElement>
+  <nodes>
+    <node x="190.99999999999997" y="601.5">calculator.OpMul</node>
+    <node x="247.99999999999994" y="0.0">calculator.Operation</node>
+    <node x="541.0" y="601.5">calculator.OpAdd</node>
+    <node x="0.0" y="567.0">calculator.OpDiv</node>
+    <node x="366.0" y="601.5">calculator.OpSub</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="calculator.OpSub" target="calculator.Operation">
+      <point x="-2.8421709430404007E-14" y="-74.5" />
+      <point x="443.49999999999994" y="547.0" />
+      <point x="382.99999999999994" y="547.0" />
+      <point x="27.0" y="258.5" />
+    </edge>
+    <edge source="calculator.OpMul" target="calculator.Operation">
+      <point x="0.0" y="-74.5" />
+      <point x="268.5" y="547.0" />
+      <point x="328.99999999999994" y="547.0" />
+      <point x="-27.0" y="258.5" />
+    </edge>
+    <edge source="calculator.OpDiv" target="calculator.Operation">
+      <point x="0.0" y="-109.0" />
+      <point x="85.5" y="537.0" />
+      <point x="274.99999999999994" y="537.0" />
+      <point x="-81.0" y="258.5" />
+    </edge>
+    <edge source="calculator.OpAdd" target="calculator.Operation">
+      <point x="0.0" y="-74.5" />
+      <point x="618.5" y="537.0" />
+      <point x="436.99999999999994" y="537.0" />
+      <point x="81.0" y="258.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="178.80555555555554" y="398.75" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

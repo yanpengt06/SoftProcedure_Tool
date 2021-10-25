@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>calculator.GUI</OriginalElement>
+  <nodes>
+    <node x="0.0" y="568.0">calculator.GUI</node>
+    <node x="37.5" y="0.0">calculator.Operation</node>
+    <node x="85.5" y="1641.0">calculator.GUI.LimitTime</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="calculator.GUI.LimitTime" target="calculator.GUI">
+      <point x="-45.0" y="-27.5" />
+      <point x="100.5" y="1616.0" />
+      <point x="36.375" y="1616.0" />
+      <point x="-109.125" y="511.5" />
+    </edge>
+    <edge source="calculator.GUI" target="calculator.Operation">
+      <point x="-97.0" y="-511.5" />
+      <point x="48.5" y="543.0" />
+      <point x="73.5" y="543.0" />
+      <point x="-72.0" y="259.0" />
+    </edge>
+    <edge source="calculator.GUI" target="calculator.GUI.LimitTime">
+      <point x="36.375" y="511.5" />
+      <point x="181.875" y="1616.0" />
+      <point x="160.5" y="1616.0" />
+      <point x="15.0" y="-27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7836236933797909" x="99.47007831714996" y="264.50111160515786" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
