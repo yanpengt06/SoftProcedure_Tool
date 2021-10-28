@@ -6,3 +6,4 @@ UML文件		./calculator-v4/GUI.uml or Operation.uml
 
 this is changed for git lab.
 this is changed again for R5.
+a modification.
